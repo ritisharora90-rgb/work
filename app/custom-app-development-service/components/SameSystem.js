@@ -1,7 +1,7 @@
 "use client";
 import Image from "next/image";
 import Link from "next/link";
-import Btn from "./btn";
+import Btn from "./Btn";
 
 export default function SameSystem() {
   return (

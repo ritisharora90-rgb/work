@@ -1,7 +1,7 @@
 "use client";
 
 import React from 'react';
-import Btn from './btn';
+import Btn from './Btn';
 
 export default function OperatingDoctrine() {
   return (
