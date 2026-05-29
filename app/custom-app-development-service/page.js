@@ -11,7 +11,7 @@ import Footer from "../../components/Footer";
 
 export default function CustomApp() {
     return (
-        <div className="container-fluid p-0 r">
+        <div className="container-fluid p-0 overflow-hidden ">
             
             <div className="container-fluid bg-white p-0">
                 
