@@ -8,14 +8,14 @@ import WhatWeDo from "./components/WhatWeDo";
 import WhatDesign from "./components/WhatDesign";
 import OurPhilosophy from "./components/OurPhilosophy";
 
-import ImpactSection from "../../components/ImpactSection";
+
 import Footer from "../../components/Footer";
 import CategoryStrip from "./components/CategoryStrip";
 
 export default function About() {
   return (
-    <div className="container-fluid p-0 container-outer">
-      <div className="container bg-white p-0">
+    <div className="container-fluid p-0 ">
+      <div className="container-fluid bg-white p-0">
         <Header />
 
         <main>

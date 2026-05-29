@@ -3,19 +3,22 @@ export default function WhatDesign() {
     {
       id: "01",
       name: "Strategy Meets Engineering",
-      title: `Why Before How`,
+      title: `Why Before
+       How`,
       desc: `Every project begins with understanding the “why” before building the “how.”`,
     },
     {
       id: "02",
       name: "User-Friendly by Design",
-      title: `Complex Made Simple`,
+      title: `Complex Made
+       Simple`,
       desc: `We turn complex systems into simple, intuitive experiences for teams and customers alike.`,
     },
     {
       id: "03",
       name: "Global Strength, Local Insight",
-      title: `100+ Engineers, U.S. Strategy`,
+      title: `100+ Engineers,
+       U.S. Strategy`,
       desc: `Backed by 100+ engineers in India and a strategic leadership team in the U.S., we deliver world-class execution with market-smart strategy.`,
     },
   ];
@@ -29,9 +32,9 @@ export default function WhatDesign() {
 
       {/* Cards Grid */}
       <div className="row g-5 justify-content-center pt-4">
-        {services.map((item, idx) => (
+        {services.map((item) => (
           <div
-            key={idx}
+            key={item}
             className="col-12 col-md-6 col-lg-4 d-flex justify-content-center"
           >
             <div
@@ -63,7 +66,7 @@ export default function WhatDesign() {
               <div className="pt-4 mt-2 philosophy-content">
                 <h3 style={{ fontSize: "16px", font: "600" }}>{item.name}</h3>
 
-                <h2 style={{ fontSize: "24px", font: "400" }}>{item.title}</h2>
+                <h2 style={{ fontSize: "24px", font: "600", whiteSpace: "pre-line" }}>{item.title}</h2>
 
                 <p style={{ fontSize: "16px", font: "400" }}>{item.desc}</p>
               </div>

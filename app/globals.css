@@ -566,7 +566,7 @@ span {
   position: relative;
   height: 132px;
   font-family: "Albert Sans", sans-serif;
-  background-color: #ffe430;
+  background-color: white;
   overflow: hidden;
 }
 
@@ -633,16 +633,6 @@ span {
   display: block;
   margin-bottom: 15px;
 }
-/* 
-.yellow-border {
-  position: absolute;
-  background-color: #eef430;
-  width: 600px;
-  height: 17px;
-  top: 125px;
-  left: 0;
-  z-index: 2;
-} */
 
 /* Yellow Slope Connection */
 .yellow-border::before {
@@ -1489,11 +1479,7 @@ span {
   margin-left:3%;
   margin-top:1%
 }
-.banner-container::before {
-    
-    padding-left: 0%;
-    padding-right: 0%;
-}
+
 
 .custom-box{
   margin-left:-20%;

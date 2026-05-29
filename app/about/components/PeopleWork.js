@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export default function PeopleWork() {
   return (
-    <>
+    
       <section className="container-fluid p-0 position-relative">
         {/* Header Banner */}
         <div className="banners-containers banner-container">
@@ -25,7 +25,9 @@ export default function PeopleWork() {
                   />
                 </div>
               </div>
-              <div className="col-12 col-md-7 text-center text-md-start">
+              <div className="col-12 col-md-7 text-center text-md-start"
+              style={{marginTop:"-22px"}}
+              >
                 <h4 className="fs-6 text-muted fw-normal mb-1">
                   Managing Director, Business Growth & Strategy
                 </h4>
@@ -62,7 +64,9 @@ export default function PeopleWork() {
                   />
                 </div>
               </div>
-              <div className="col-12 col-md-7 text-center text-md-end">
+              <div className="col-12 col-md-7 text-center text-md-end"
+              style={{marginTop:"-22px"}}
+              >
                 <h4 className="fs-6 text-muted fw-normal mb-1">
                   Managing Director & CTO, Technology & Engineering
                 </h4>
@@ -126,6 +130,6 @@ export default function PeopleWork() {
           </div>
         </div>
       </section>
-    </>
+    
   );
 }

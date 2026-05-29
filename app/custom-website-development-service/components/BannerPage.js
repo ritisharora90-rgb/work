@@ -11,7 +11,7 @@ export default function BannerPage() {
                 className="change-image container-fluid  d-md-block mt-3  d-flex flex-column justify-content-center position-relative overflow-hidden px-0"
    
                 style={{
-                    minHeight: '85vh',
+                    minHeight: '65vh',
                     backgroundImage: "url('/web/main.png')",
                     backgroundRepeat: 'no-repeat',
                     backgroundPosition: 'center ',

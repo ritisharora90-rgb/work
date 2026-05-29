@@ -25,24 +25,28 @@ export default function WhatWeDo() {
       <div className="row justify-content-center text-center mb-5">
         <div className="col-12 col-lg-10">
           {/* Header Badge */}
-          <h1 class="what-we-do-heading fw-bold">What We Do</h1>
+          <h1 className="what-we-do-heading fw-bold">What We Do</h1>
 
-          <h3 className="px-md-5 text-start fw-bold  whatFontText">
+          <h3 className="px-md-5  text-start fw-bold  whatFontText"
+          style={{fontSize:"24px",marginLeft:"85px"}}
+          >
             We design and build custom enterprise solutions for small to
             mid-sized businesses, combining innovation with real-world
             usability.
             <br />
             <br />
-            <span className="fw-normal fst-italic">Our services include:</span>
+            <span className="fw-normal fst-italic"
+             style={{fontSize:"24px"}}
+            >Our services include:</span>
           </h3>
         </div>
       </div>
 
       {/* Services Grid */}
       <div className="row g-4 justify-content-center">
-        {services.map((item, idx) => (
+        {services.map((item) => (
           <div
-            key={idx}
+            key={item}
             className="col-12 col-md-6 col-lg-5"
             style={{ backgroundColor: "" }}
           >

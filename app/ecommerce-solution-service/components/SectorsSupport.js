@@ -32,9 +32,9 @@ export default function SectorsSupport() {
             { src: "support3.png", title: "Grocery" },
             { src: "support4.png", title: "Healthcare" },
             { src: "support5.png", title: "Marketplaces" },
-          ].map((sector, index) => (
+          ].map((sector) => (
             <div
-              key={index}
+              key={sector}
               className="col-6 col-md-4 d-flex justify-content-center"
             >
               <div
